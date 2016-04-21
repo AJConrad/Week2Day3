@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4925F83E1CC6BDB700997E0C /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4925F83D1CC6BDB700997E0C /* DetailViewController.m */; };
 		49B54FDE1CC6A33600F0BA39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B54FDD1CC6A33600F0BA39 /* main.m */; };
 		49B54FE11CC6A33600F0BA39 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B54FE01CC6A33600F0BA39 /* AppDelegate.m */; };
 		49B54FE41CC6A33600F0BA39 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B54FE31CC6A33600F0BA39 /* ViewController.m */; };
@@ -14,9 +15,13 @@
 		49B54FEA1CC6A33600F0BA39 /* GitErDone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 49B54FE81CC6A33600F0BA39 /* GitErDone.xcdatamodeld */; };
 		49B54FEC1CC6A33600F0BA39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49B54FEB1CC6A33600F0BA39 /* Assets.xcassets */; };
 		49B54FEF1CC6A33600F0BA39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49B54FED1CC6A33600F0BA39 /* LaunchScreen.storyboard */; };
+		49D5636A1CC80DF2000EC62F /* Assignment+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D563671CC80DF2000EC62F /* Assignment+CoreDataProperties.m */; };
+		49D5636B1CC80DF2000EC62F /* Assignment.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D563691CC80DF2000EC62F /* Assignment.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4925F83C1CC6BDB700997E0C /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		4925F83D1CC6BDB700997E0C /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		49B54FD91CC6A33600F0BA39 /* GitErDone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitErDone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49B54FDD1CC6A33600F0BA39 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		49B54FDF1CC6A33600F0BA39 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -28,6 +33,10 @@
 		49B54FEB1CC6A33600F0BA39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49B54FEE1CC6A33600F0BA39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49B54FF01CC6A33600F0BA39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49D563661CC80DF2000EC62F /* Assignment+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Assignment+CoreDataProperties.h"; path = "GitErDone/Assignment+CoreDataProperties.h"; sourceTree = "<group>"; };
+		49D563671CC80DF2000EC62F /* Assignment+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Assignment+CoreDataProperties.m"; path = "GitErDone/Assignment+CoreDataProperties.m"; sourceTree = "<group>"; };
+		49D563681CC80DF2000EC62F /* Assignment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Assignment.h; path = GitErDone/Assignment.h; sourceTree = "<group>"; };
+		49D563691CC80DF2000EC62F /* Assignment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Assignment.m; path = GitErDone/Assignment.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,10 +74,13 @@
 				49B54FE21CC6A33600F0BA39 /* ViewController.h */,
 				49B54FE31CC6A33600F0BA39 /* ViewController.m */,
 				49B54FE51CC6A33600F0BA39 /* Main.storyboard */,
+				4925F83C1CC6BDB700997E0C /* DetailViewController.h */,
+				4925F83D1CC6BDB700997E0C /* DetailViewController.m */,
 				49B54FEB1CC6A33600F0BA39 /* Assets.xcassets */,
 				49B54FED1CC6A33600F0BA39 /* LaunchScreen.storyboard */,
 				49B54FF01CC6A33600F0BA39 /* Info.plist */,
 				49B54FE81CC6A33600F0BA39 /* GitErDone.xcdatamodeld */,
+				49B5500F1CC6AA0100F0BA39 /* Data */,
 				49B54FDC1CC6A33600F0BA39 /* Supporting Files */,
 			);
 			path = GitErDone;
@@ -80,6 +92,18 @@
 				49B54FDD1CC6A33600F0BA39 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49B5500F1CC6AA0100F0BA39 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				49D563661CC80DF2000EC62F /* Assignment+CoreDataProperties.h */,
+				49D563671CC80DF2000EC62F /* Assignment+CoreDataProperties.m */,
+				49D563681CC80DF2000EC62F /* Assignment.h */,
+				49D563691CC80DF2000EC62F /* Assignment.m */,
+			);
+			name = Data;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,8 +177,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49D5636A1CC80DF2000EC62F /* Assignment+CoreDataProperties.m in Sources */,
+				4925F83E1CC6BDB700997E0C /* DetailViewController.m in Sources */,
 				49B54FE41CC6A33600F0BA39 /* ViewController.m in Sources */,
 				49B54FE11CC6A33600F0BA39 /* AppDelegate.m in Sources */,
+				49D5636B1CC80DF2000EC62F /* Assignment.m in Sources */,
 				49B54FDE1CC6A33600F0BA39 /* main.m in Sources */,
 				49B54FEA1CC6A33600F0BA39 /* GitErDone.xcdatamodeld in Sources */,
 			);
@@ -307,6 +334,7 @@
 				49B54FF51CC6A33600F0BA39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
